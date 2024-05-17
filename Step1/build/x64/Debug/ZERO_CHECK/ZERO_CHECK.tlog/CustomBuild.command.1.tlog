@@ -1,0 +1,10 @@
+^C:\HUNG_TEST\CMAKE_EXAPMLE\STEP1\BUILD\CMAKEFILES\C369E8B1ACB8F1AE3620E079AAB3412E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Hung_Test/Cmake_Exapmle/Step1 -BC:/Hung_Test/Cmake_Exapmle/Step1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Hung_Test/Cmake_Exapmle/Step1/build/Tutorial.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+#toturial file
+*.rst
+
+#debug file
+*.pdb
