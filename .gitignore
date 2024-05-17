@@ -36,3 +36,5 @@
 
 #debug file
 *.pdb
+
+build/
